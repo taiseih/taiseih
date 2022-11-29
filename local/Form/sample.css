@@ -1,0 +1,58 @@
+body {
+    color: #333;
+    font-family: "Helvetica Neue", Arial, "Hiragino Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  }
+  form {
+    width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  
+.form-area_title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+.form-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form-area_input,
+.input-holder {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.form-area_input {
+  width: 30%;
+  background-color: #eee;
+}
+.input-holder {
+    text-align: center;
+}
+/* 各要素の大きさを合わすため */
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+}
+.submit {
+    text-align: center;
+}
